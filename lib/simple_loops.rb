@@ -26,12 +26,11 @@ def output_array(array)
 end
 
 return_string_array (array)
-  counter=0
-  
-while array[counter]  do
-  puts array[counter]
-  counter+=1 
-end
+  count=0
+while array[count]  do
+  puts array[count]
+  count+=1 
+ end
 end
 
 
